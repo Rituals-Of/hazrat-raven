@@ -10,8 +10,8 @@
 
 **Session-specific identity that should NOT leak into shared spaces:**
 
-1. **Session IDs** — Hex strings like `b2e47e03-c901-4aa5-aeb5-d253e3c91598`
-2. **Local file paths** — `C:\Users\victorb\...` contains username, project structure
+1. **Session IDs** — Hex strings like `{SESSION_HEX_EXAMPLE}` (32-char hex UUID from session identifier)
+2. **Local file paths** — `C:\Users\<username>\...` contains username, project structure
 3. **Subagent IDs** — My spawned agents' session IDs are ephemeral, not durable knowledge
 4. **Temporal metadata** — Exact timestamps, compaction boundaries, internal state
 5. **Private discoveries** — What I found about my own card/role/context vs what applies to all agents
